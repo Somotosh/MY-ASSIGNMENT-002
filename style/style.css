@@ -10,19 +10,19 @@
 }
 
 .banner{
-  background-image: url(../assets/hero-bg.png);
+  background-image: url(/assets/hero-bg.png);
   width:100%;
   height: 100vh;
   background-size: cover;
  
 }
 .circle{
-  background-image: url(../assets/hero-circle.png);
+  background-image: url(/assets/hero-circle.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .footer{
-  background-image:url(../assets/footer-bg.png);
+  background-image:url(/assets/footer-bg.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
