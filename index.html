@@ -22,9 +22,9 @@
             </h1>
             <div class="flex gap-9 text-white font-medium">
 
-                <a href="">About</a>
-                <a href="">Episodes</a>
-                <a href="">Host</a>
+                <li class="list-none"><a href="">About</a></li>
+                <li class="list-none"> <a href="">Episodes</a></li>
+                <li class="list-none"> <a href="">Host</a></li>
 
             </div>
             <button
@@ -37,9 +37,21 @@
     <main>
         <!-- banner section -->
         <section>
-            <div class="banner  ">
-                <div class="text-center mx-auto items-center h-">
-                    <img class="circle" src="./assets/microphone.png" alt="">
+            <div style="background-image: url(./assets/hero-bg.png);" class="banner w-full  bg-cover">
+                <div>
+                    <div class=" mx-auto justify-center  relative  pt-24 pl-[39%]">
+                        <img class="w-[340px] h-auto  " src="./assets/hero-circle.png" alt="">
+                        <img class="w-32 h-auto absolute top-[36%] left-[46%]" src="./assets/microphone.png" alt="">
+                    </div>
+                    <div class="text-white text-center ">
+                        <h1 class="text-6xl font-extrabold pt-10">TechWave</h1>
+                        <p class="pt-2  opacity-80">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                        <div class=" text-white pb-24  ">
+                            <button class="mt-6 pt-4 pb-4 pr-6 pl-6  rounded-[10000px]  leading-3 font-semibold cursor-pointer bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8]"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                            <button class="text-[#00FF88] border border-2-[#00FF88] pt-3 pb-3 pr-5 pl-5 ml-2 rounded-[10000px] cursor-pointer gap-2.5"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
@@ -214,27 +226,27 @@
         </section>
     </main>
     <footer>
-        <div style="background-image: url(./assets/footer-bg.png);" class="footer text-white ">
+        <div style="background-image: url(./assets/footer-bg.png);" class="footer text-white w-full bg-no-repeat bg-cover">
             <div class="text-center">
                 <h1 class="text-6xl text-white font-bold pt-28">Tech<span
                         class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span>
                 </h1>
                 <div class="flex justify-center gap-10 pt-9 pb-9">
                     <div class="flex gap-2">
-                        <img  src="./assets/spotify.png" alt="">
+                        <img src="./assets/spotify.png" alt="">
                         <p class="opacity-60">Spotify</p>
 
                     </div>
                     <div class="flex gap-2">
-                        <img  src="./assets/apple-podcast.png" alt="">
+                        <img src="./assets/apple-podcast.png" alt="">
                         <p class="opacity-60">Apple Podcasts</p>
                     </div>
                     <div class="flex gap-2">
-                        <img  src="./assets/youtube-podcast.png" alt="">
+                        <img src="./assets/youtube-podcast.png" alt="">
                         <p class="opacity-60">YouTube</p>
                     </div>
                     <div class="flex gap-2">
-                        <img  src="./assets/twitter.png" alt="">
+                        <img src="./assets/twitter.png" alt="">
                         <p class="opacity-60">Twitter</p>
                     </div>
                 </div>
