@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class=" flex justify-between bg-[#1A0B2E] items-center pl-14  pr-14 pt-4 pb-4 border-b border-white/30">
+        <nav class=" flex justify-between bg-[#1A0B2E] items-center pl-14  pr-14 pt-4 pb-4 border-b border-white/30  max-[577px]:pr-1  max-[577px]:pl-1  max-[577px]:pt-5  max-[577px]:pb-5">
             <h1 class=" text-[2rem] text-white font-bold ">Tech<span
                     class="bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">wave</span>
             </h1>
@@ -28,11 +28,11 @@
 
             </div>
             <button
-                class="text-white border-none font-medium cursor-pointer rounded-[10000px] pt-3 pr-3 pb-4 pl-4 bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">
+                class=" max-[577px]:hidden text-white border-none font-medium cursor-pointer rounded-[10000px] pt-3 pr-3 pb-4 pl-4 bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8]">
                 Subscribe
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
-            <span class="bars hidden text-white text-3xl  "><i class="fa-solid fa-bars"></i></span>
+            <span class="bars hidden text-white text-3xl max-[577px]:block "><i class="fa-solid fa-bars"></i></span>
         </nav>
     </header>
     <main>
@@ -42,9 +42,9 @@
                 class="  banner w-full h-auto bg-cover bg-center">
                 <div>
                     <div class="flex  justify-center  items-center  text-center relative   ">
-                        <img class=" max-[577px]:w-60 max-[577px]:mt-20 w-[340px]  mt-24" src="./assets/hero-circle.png"
+                        <img class=" max-[577px]: max-[577px]:mt-20   max-[577px]:w-48 mt-24" src="./assets/hero-circle.png"
                             alt="">
-                        <img class="max-[577px]:w-[46px] w-32  absolute top-[36%] left-[46%] "
+                        <img class="max-[577px]:w-16 max-[577px]:top-32 max-[577px]:left-[43%] w-32  absolute top-[36%] left-[46%] "
                             src="./assets/microphone.png" alt="">
                         <span
                             class="max-[577px]:pt-1 max-[577px]:pb-1 max-[577px]:pr-2 max-[577px]:pl-2 bg-[#00FF88] text-[1A0B2E] font-semibold text-lg pt-2 pb-2 pr-4 pl-4 absolute top-[27%] left-[55%] rounded-[1000px] shadow-[0_3px_27px_rgba(0,255,136,0.5)] ">NEW</span>
