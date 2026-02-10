@@ -4,31 +4,92 @@
 
 
 
-.inter{
+.inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  
-  
+
+
 }
- 
-  nav a:hover{
-    background: linear-gradient(to top right, red, aquamarine, blue);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    
- }
-@media screen and (max-width: 576px){
 
-  nav{
-   padding: 1rem 1.25rem;
-  }
-  nav>div,
-  nav>button{
-    /* display: none; */
+nav a:hover {
+  color: blue;
+  animation: nav 4s infinite ease-in-out;
+
+}
+
+
+.card {
+  animation: card 4s infinite ease-in-out;
+
+
+}
+
+.microphone {
+  transform-origin: bottom;
+  animation: micro 4s infinite ease-in-out;
+
+}
+
+.new {
+  animation: pulse 4s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
   }
 
-  
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+@keyframes micro {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes nav {
+  0% {
+    transform: scale(1.5);
+  }
+
+}
+
+@keyframes card {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+@keyframes content {
+  0% {
+    transform: scale(1.5);
+  }
 
 }
