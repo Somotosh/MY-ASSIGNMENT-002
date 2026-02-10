@@ -26,7 +26,7 @@ nav a:hover {
 
 }
 
-.microphone {
+.microphone { 
   transform-origin: bottom;
   animation: micro 4s infinite ease-in-out;
 
